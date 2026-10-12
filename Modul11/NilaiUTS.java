@@ -5,7 +5,6 @@
 package Modul11;
 import java.util.Scanner;//AMemanggil kelas scanner
 /**
- *
  * @author Braviano Reihan Ali 265314032
  */
 public class NilaiUTS {//Awal kelas NilaiUTS
@@ -22,7 +21,6 @@ public class NilaiUTS {//Awal kelas NilaiUTS
         
         total = (0.30*nilaiuts1)+(0.30*nilaiuts2)+(0.40*nilaiuas);
         //proses menghitung total nilai
-        
         if (total>80){//Jika nilai total lebih besar dari 80
             nilaifinal='A';//maka mencetak nilai A
         }else if (total>=65){//Jika lebih besar sama dengan 65
@@ -31,7 +29,7 @@ public class NilaiUTS {//Awal kelas NilaiUTS
             nilaifinal='C';//Mencetak nilai C
         }else if (total>=50){//Jika lebih besar sama dengan 50
             nilaifinal='D';//Maka mencetak nilai D
-        }else{//Klaaau tidak
+        }else{//Kalau tidak
             nilaifinal='E';//Mencetak nilai E
         }
         System.out.println();//Spasi
@@ -39,5 +37,4 @@ public class NilaiUTS {//Awal kelas NilaiUTS
         System.out.println("Jumlah Nilaimu Adalah   : "+total);//Mencetak total nilai
         System.out.println("Nilaimu Akhirmu Adalah  : "+nilaifinal);//Mencetak nilai huruf
     }
-    
 }//Akhir kelas NilaiUTS

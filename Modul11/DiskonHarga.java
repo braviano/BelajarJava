@@ -18,10 +18,7 @@ public class DiskonHarga {//Awal kelas DiskonHarga
         belanja = dataBelanja.nextInt();//Menyimpan input ke variabel belanja
         harga = 100000;//Variabel harga  bernilai 100000
         totalharga = belanja*harga;//Proses menghitung totalharga dengan belanja x harga
-        persen = 0.1;//vaariabel persen dengan nilai 10% atau 0.1
-        
-        
-        
+        persen = 0.9;//variabel persen dengan nilai 0.9 karena untuk mendapat hasil harga-diskon dengan cepat
         
         System.out.println("Jumlah Barang yang dibeli   : "+belanja);//Mencetak jumlah barang yang dibeli
         System.out.println("Total Harga sebelum Diskon  : "+totalharga);//Menceak total harga sebelum diskon

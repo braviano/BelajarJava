@@ -21,8 +21,8 @@ public class BeratIdeal {//Awal kelas BeratIdeal
         berat = dataBerat.nextDouble();//Menyimpan hasil input berat badan ke variabel berat
         
         selisih = tinggi-berat;//proses menghitung selisih tinggi dan berat
-        if (selisih >= 90 && selisih <= 110) {
-            //Memulai kondisi jika selisih lebih besar sama dengan 90 dan lebih kecil sama dengan 110
+        if (selisih <= 90 && selisih <= 110) {
+            //Memulai kondisi jika diantara 90 dan 110
             System.out.println("Berat badan ideal");//maka mencetak berat badan ideal
             }else if (selisih>90){//Jika selisih lebih besar dari 90
                 System.out.println("Terlalu Gemuk");//maka mencetak berat badan terlalu gemu
